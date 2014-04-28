@@ -8,7 +8,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 /**
- * @module Authnet
+ * @module Application
  * @description auto load configuration for authnet
  * @package module/Application/Module.php
  * @author Yassine Nachti <nachtis@gmail.com>
