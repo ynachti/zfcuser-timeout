@@ -11,7 +11,7 @@
  * @module Authnet
  * @description auto load configuration for authnet
  * @package module/Application/Module.php
- * @author Yassine Nachti <yassine.nachti@unlv.edu>
+ * @author Yassine Nachti <nachtis@gmail.com>
  */
 namespace Application;
 
