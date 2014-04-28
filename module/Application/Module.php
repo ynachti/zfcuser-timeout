@@ -128,12 +128,7 @@ class Module {
                     $alert = '<div class="alert in alert-block fade alert-alert">the system is under Maintenance at this time. Please check back later!</div>';
                     return $alert;
                 },
-                'get_countries_list' => function ($sm) {
-                    //$sm = $sm->getServiceLocator();
-                    //$em = $sm->getEntityManager();
-                    //$repository = $em->getRepository('Transcript\Entity\Countries');
-                    //return $repository->findAll();
-                },
+
             ),
         );
     }
