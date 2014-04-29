@@ -17,7 +17,7 @@ namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
-use \Application\Model\StSessionStorage as StSession;
+use \Application\Model\YourSessionStorage as StSession;
 
 class Module {
 	
@@ -28,7 +28,7 @@ class Module {
         $moduleRouteListener->attach($eventManager);
         // set the maintenance alert if any
         $eventManager->attach(MvcEvent::EVENT_ROUTE, array($this, 'getAlert'));
-        // set session timeout to 8h
+        // set session timeout to x
         $sm = $e->getApplication()->getServiceManager();
         
         $sharedEventManager->attach(
